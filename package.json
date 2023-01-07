@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node ace serve --watch",
-    "build": "yarn build node ace build --production ",
+    "build": "yarn build --production ",
     "start": "yarn start node server.js ",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
